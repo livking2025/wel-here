@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Service - Call Now</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+    }
+    #home, #about, #services, #contact, #call {
+      padding: 40px;
+    }
+    #home { background-color: #f0f8ff; }
+    #about { background-color: #e6f2ff; }
+    #services { background-color: #d9ecff; }
+    #call { background-color: #ccf2ff; text-align: center; }
+    #contact { background-color: #cce5ff; }
+
+    .button {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    .phone-box {
+      background: #e0f7ff;
+      border-left: 6px solid #007BFF;
+      padding: 15px;
+      margin: 10px auto;
+      max-width: 400px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<script defer data-domain="sofi.in" src="https://plausible.io/js/script.js"></script>
+<body>
+
+  <header>
+    <h1>Customer Service Portal</h1>
+    <p>We're here to help you 24/7</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#call">Call Now</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Our Customer Service</h2>
+    <p>We provide top-notch support to ensure customer satisfaction and success.</p>
+  </section>
+
+      <!-- Button Call Now -->
+    <a href="tel:18052486258">
+      <button class="button">Call Now: 1805-248-6258</button>
+    </a>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Our customer service team is dedicated to resolving your issues quickly and professionally. We believe in listening to our customers and delivering helpful solutions.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>24/7 Live Chat Support</li>
+      <li>Email and Phone Support</li>
+      <li>Technical Troubleshooting</li>
+      <li>Account Assistance</li>
+      <li>Feedback and Complaints Handling</li>
+    </ul>
+  </section>
+
+  <section id="call">
+    <h2>📞 Talk to Us Now</h2>
+    <p>Facing any issue? Click below to connect with our support team instantly.</p>
+
+    <!-- Button Call Now -->
+    <a href="tel:18052486258">
+      <button class="button">Call Now: 1805-248-6258</button>
+    </a>
+
+    <!-- Different styles of showing the phone number -->
+    <div class="phone-box">Call Customer Support: <a href="tel:18052486258">1805-248-6258</a></div>
+
+    <div class="phone-box">📞 Direct Helpline: <a href="tel:18052486258">+1 (805) 248-6258</a></div>
+
+    <div class="phone-box">☎️ Reach us at: <a href="tel:18052486258">18052486258</a></div>
+
+    <div class="phone-box">📱 Call Now – <a href="tel:18052486258">Tap to Dial: 1805-248-6258</a></div>
+
+    <div class="phone-box">🆘 Support Hotline: <a href="tel:18052486258">1-805-248-6258</a></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" required><br/><br/>
+      
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required><br/><br/>
+      
+      <label for="message">Message:</label><br/>
+      <textarea id="message" name="message" rows="4" required></textarea><br/><br/>
+      
+      <button class="button" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Customer Service Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
